@@ -1,0 +1,106 @@
+ <style type="text/css">
+ 
+        
+       .col-8{
+          order:2; 
+       }
+    .col-4
+    {
+     order:1;
+     }
+        #erroralert{
+            display :none;
+        }
+        #success{
+            display :none;
+        }
+           body{
+            font-family:Helvetica;
+        }
+       #failtweet{
+           display:none;
+       }
+       
+       #successtweet{
+           display:none;
+       }
+        .signupdata{
+          display: none;
+          margin-bottom: 10px;
+        }
+        .footer {
+             position: flex;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            /*background-color: red;*/
+            /*color: white;*/
+            text-align: center;
+            background-color: #f5f5f5;
+            }
+                .maincontainer{
+            padding : 20px;
+        }
+        .time{
+            color:lightgrey;
+        }
+        .grey{
+            color:grey;
+            /*border:1px solid lightgrey;*/
+        }
+        .tweet{
+            
+            border:1px solid grey;
+            padding :5px;
+            margin:5px;
+            border-radius : 5px;
+        }
+        .center{
+            display:flex;
+            justify-content:center;
+            flex:column;
+            align-items :center;
+        }
+        
+        .heading{
+           
+            font-weight:bolder;
+            color:#0074D9;
+              font-family:Helvetica;
+              margin :5px;
+              padding-bottom:10px;
+        }
+        .symbol{
+            /*font-STYLE:italic;*/
+            font-weight:bolder;
+            color: #0074E9;
+        }
+       
+       .container {
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+.col-lg-4
+{
+    order:2;
+}
+.col-lg-8
+{
+    order:1;
+}
+@media only screen and (max-width: 768px) {
+        .col-lg-4
+{
+    order:1;
+}
+.col-lg-8
+{
+    order:2;
+}
+}
+        
+      </style>
